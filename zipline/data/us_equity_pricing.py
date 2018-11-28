@@ -45,7 +45,7 @@ from pandas import (
     to_datetime,
     Timestamp,
 )
-from pandas._libs.tslib import normalize_date
+from pandas._libs.tslib import iNaT
 from six import (
     iteritems,
     string_types,
